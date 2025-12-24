@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prommt - Support & Help Center</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            color: white;
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        header p {
+            font-size: 18px;
+            opacity: 0.95;
+        }
+
+        .content {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #667eea;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 28px;
+        }
+
+        h3 {
+            color: #764ba2;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            font-size: 20px;
+        }
+
+        .faq-item {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+        }
+
+        .faq-item h4 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .faq-item p {
+            color: #666;
+            line-height: 1.8;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .contact-box h3 {
+            color: white;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .contact-box a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            border-bottom: 2px solid white;
+            padding-bottom: 2px;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .feature-list li {
+            padding: 10px 0 10px 30px;
+            position: relative;
+            color: #555;
+        }
+
+        .feature-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .steps {
+            counter-reset: step-counter;
+            list-style: none;
+            padding: 0;
+        }
+
+        .steps li {
+            counter-increment: step-counter;
+            padding: 15px 0 15px 50px;
+            position: relative;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .steps li:before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            background: #667eea;
+            color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: white;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                padding: 25px;
+            }
+
+            .logo {
+                font-size: 36px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Prommt</div>
+            <p>Support & Help Center</p>
+        </header>
+
+        <div class="content">
+            <h2>Welcome to Prommt Support</h2>
+            <p>Prommt is your ultimate video contest platform where creativity meets competition. Here you'll find everything you need to get started and make the most of your experience.</p>
+
+            <h2>Getting Started</h2>
+            <ol class="steps">
+                <li>Download Prommt from the App Store</li>
+                <li>Create your account or sign in</li>
+                <li>Browse active theme competitions</li>
+                <li>Upload your creative videos to compete</li>
+                <li>Vote for your favorite videos</li>
+                <li>Track your performance and win!</li>
+            </ol>
+
+            <h2>Key Features</h2>
+            <ul class="feature-list">
+                <li>Themed Video Competitions with exciting challenges</li>
+                <li>Easy video upload and sharing</li>
+                <li>Community voting system</li>
+                <li>Real-time view counts and analytics</li>
+                <li>Top 3 leaderboards for each competition</li>
+                <li>Like, dislike, and report features</li>
+                <li>Profile management and tracking</li>
+            </ul>
+
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <h4>How do I participate in a competition?</h4>
+                <p>Simply browse the active competitions on the home screen, create your video content based on the theme, and upload it through the app. Once uploaded, your video will be visible to the community for voting.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>How does voting work?</h4>
+                <p>Each user can vote for videos they like by tapping the "Vote" button on the video detail page. You can vote for multiple videos, and the videos with the most votes will appear in the Top 3 section.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>How are winners determined?</h4>
+                <p>Winners are selected based on the number of community votes received during the competition period. The more votes your video gets, the higher your chances of winning!</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>What video formats are supported?</h4>
+                <p>Prommt supports most common video formats including MP4, MOV, and more. We recommend keeping your videos under 2 minutes for the best engagement.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>Can I edit or delete my uploaded video?</h4>
+                <p>Once a competition is live, videos cannot be edited to maintain fairness. However, you can contact support if you need to remove a video for a valid reason.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>How do I report inappropriate content?</h4>
+                <p>If you come across any video that violates our community guidelines, simply tap the "Report" button on the video detail page. Our team will review it promptly.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>Are there any age restrictions?</h4>
+                <p>Prommt is designed for users aged 13 and above. Users under 18 should have parental consent before participating.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>How often are new competitions launched?</h4>
+                <p>We regularly launch new themed competitions based on seasons, holidays, and trending topics. Keep checking the app for exciting new challenges!</p>
+            </div>
+
+            <h2>Community Guidelines</h2>
+            <p>To keep Prommt a safe and creative space for everyone:</p>
+            <ul class="feature-list">
+                <li>Be respectful to all community members</li>
+                <li>Upload only original content or content you have rights to use</li>
+                <li>No hate speech, violence, or inappropriate content</li>
+                <li>Keep videos relevant to the competition theme</li>
+                <li>No spam or misleading information</li>
+                <li>Respect copyright and intellectual property</li>
+            </ul>
+
+            <h2>Technical Support</h2>
+            
+            <div class="faq-item">
+                <h4>The app is crashing or not loading</h4>
+                <p>Try closing and reopening the app. If the problem persists, check for updates in the App Store. You can also try restarting your device.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>My video won't upload</h4>
+                <p>Ensure you have a stable internet connection and sufficient storage space. Check that your video file size is within limits and the format is supported.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>Videos are not playing smoothly</h4>
+                <p>This may be due to slow internet connection. Try switching to a better network or downloading videos for offline viewing if available.</p>
+            </div>
+
+            <h2>Privacy & Safety</h2>
+            <p>Your privacy is important to us. Prommt collects only necessary information to provide our services. We never share your personal data with third parties without your consent. For more details, please review our Privacy Policy within the app.</p>
+
+            <div class="contact-box">
+                <h3>Still Need Help?</h3>
+                <p>Can't find what you're looking for? Our support team is here to help!</p>
+                <p style="margin-top: 20px;">Email us at: <a href="mailto:support@prommt.app">support@prommt.app</a></p>
+                <p style="margin-top: 10px; font-size: 14px; opacity: 0.9;">We typically respond within 24-48 hours</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Trope A.I. Cinema LLC. All rights reserved.</p>
+            <p style="margin-top: 10px;">Prommt - Where Creativity Competes</p>
+        </footer>
+    </div>
+</body>
+</html>
